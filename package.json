@@ -1,0 +1,28 @@
+{
+  "name": "ashford",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/enmalidia/ashford-hospital-study-case.git",
+  "author": "Enma Lidia Muñoz Garcia",
+  "license": "MIT"
+}
