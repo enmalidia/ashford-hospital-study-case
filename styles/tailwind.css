@@ -2,6 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+  @font-face {
+    font-family: 'Futura Std';
+    src: url('../public/fonts/FuturaStd-Light.otf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Untitled Sans';
+    src: url('../public/fonts/UntitledSans-Regular.otf') format('truetype');
+  }
+  /*main header hero section*/
+  h1{
+    @apply tracking-tight font-black text-primary dark:text-darkGray text-4xl sm:text-5xl md:text-6xl;
+    font-family: 'Futura Std';
+  }
+  /*section headers*/
+  h2{
+    
+  }
+  h3{
+    
+  }
+  /*section sub headers*/
+  h4{
+   
+  }
+
+  a{
+    
+  }
+  p{
+    
+  }
+  section{    
+  } 
+  
+} 
+
 html,
 body {
   padding: 0;
