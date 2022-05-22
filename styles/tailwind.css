@@ -12,27 +12,41 @@
     src: url('../public/fonts/UntitledSans-Regular.otf') format('truetype');
   }
   /*main header hero section*/
+  /*48 - 32*/
   h1{
-    @apply tracking-tight font-black text-primary dark:text-darkGray text-4xl sm:text-5xl md:text-6xl;
+    @apply tracking-tight text-white dark:text-darkGray text-2xl md:text-5xl md:leading-[4rem];
     font-family: 'Futura Std';
   }
   /*section headers*/
+  /*32 - 24*/
   h2{
-    
-  }
-  h3{
-    
+    @apply tracking-tight dark:text-darkGray text-2xl md:text-4xl;
+    font-family: 'Futura Std';
   }
   /*section sub headers*/
+  /*20*/
+  h3{
+    @apply tracking-tight dark:text-darkGray text-xl;
+    font-family: 'Untitled Sans';
+  }  
+  /*16*/
   h4{
-   
+    @apply tracking-tight dark:text-darkGray text-base;
+    font-family: 'Untitled Sans';
+  }
+  /*10 - 14 caption uppercase*/
+  h5{
+    @apply tracking-tight text-primary dark:text-darkGray text-sm md:text-[10px] uppercase font-semibold;
+    font-family: 'Untitled Sans';
   }
 
   a{
     
   }
+  /*18*/
   p{
-    
+    @apply tracking-tight dark:text-darkGray text-lg;
+    font-family: 'Untitled Sans';
   }
   section{    
   } 
@@ -47,8 +61,8 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-html { height: 100vh; }
-body { height: 100%; }
+/* html { height: 100vh; }
+body { height: 100%; } */
 
 a {
   color: inherit;

@@ -23,7 +23,7 @@ module.exports = {
       screens:{
         'xs': '360px',
         ...defaultTheme.screens
-      },
+      },      
     },
   },
   plugins: [],
