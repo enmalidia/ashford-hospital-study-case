@@ -18,11 +18,16 @@ module.exports = {
         primary: '#3EB1C8',
         secondary:'#002554',
         lightGray: '#8994A7',
-        darkGray: '#27364B'
+        darkGray: '#27364B',
+        grayBackground:'#eff3f8'
       },
       screens:{
         'xs': '360px',
         ...defaultTheme.screens
+      },
+      container: {
+        center: true,
+        /*padding: '2rem'*/
       },      
     },
   },

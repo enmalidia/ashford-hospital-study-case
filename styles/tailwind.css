@@ -39,6 +39,11 @@
     @apply tracking-tight text-primary dark:text-darkGray text-sm md:text-[10px] uppercase font-semibold;
     font-family: 'Untitled Sans';
   }
+  /*14 -12*/
+  h6{
+    @apply tracking-tight text-lightGray dark:text-darkGray text-xs md:text-sm ;
+    font-family: 'Untitled Sans';
+  }
 
   a{
     
