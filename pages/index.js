@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Ashford Hospital</title>        
+        <title>Ashford Hospital|Home</title>        
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>

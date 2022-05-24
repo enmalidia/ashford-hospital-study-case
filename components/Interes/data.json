@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Maydelise Columna",
+        "role": "Paciente del Centro de la mujer",
+        "img":"/images/story1.png"
+    },
+    {
+        "name": "Natalie y Daniel",
+        "role": "Pacientes de Ginecología y sala de partos",
+        "img":"/images/story2.jpg"
+    },
+    {
+        "name": "Dra. Rosa Bonilla",
+        "role": "Directora NICU Nivel 3",
+        "img":"/images/story3.png"
+    },
+    {
+        "name": "Elizabeth De Jesús",
+        "role": " Sobreviviente de COVID-19",
+        "img":"/images/story4.png"
+    }
+]

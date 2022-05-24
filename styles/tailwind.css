@@ -36,7 +36,7 @@
   }
   /*10 - 14 caption uppercase*/
   h5{
-    @apply tracking-tight text-primary dark:text-darkGray text-sm md:text-[10px] uppercase font-semibold;
+    @apply tracking-[0.3em] text-primary dark:text-darkGray text-sm md:text-[10px] uppercase font-black;
     font-family: 'Untitled Sans';
   }
   /*14 -12*/

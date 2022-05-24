@@ -21,6 +21,9 @@
     "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24"
   },
+  "resolutions": {
+    "styled-components": "^5"
+  },
   "main": "index.js",
   "repository": "https://github.com/enmalidia/ashford-hospital-study-case.git",
   "author": "Enma Lidia Muñoz Garcia",
