@@ -1,0 +1,46 @@
+[
+    {
+        "title":"OB-G",
+        "name": "OB-Gyn/Ginecología"
+    },
+    {
+        "title":"NICU",
+        "name": "Unidad NICU"
+    },
+    {
+        "title":"Cc",
+        "name": "Cirugía colorrectal"
+    },
+    {
+        "title":"Or",
+        "name": "Ortopedia"
+    },
+    {
+        "title":"FdR",
+        "name": "Medicina física, deportiva y rehabilitación"
+    },
+    {
+        "title":"Ot",
+        "name": "Otorrinolaringologia"
+    },
+    {
+        "title":"En",
+        "name": "Endocrinologia"
+    },
+    {
+        "title":"Cg",
+        "name": "Cirugía General"
+    },
+    {
+        "title":"Co",
+        "name": "Cirugía Oncológica"
+    },
+    {
+        "title":"Pe",
+        "name": "Pediatría"
+    },
+    {
+        "title":"Ur",
+        "name": "Urología"
+    }     
+]

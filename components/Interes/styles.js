@@ -15,8 +15,7 @@ export const MemberOverlay = styled.div.attrs({
     className: ""
 })
 `
-    background: linear-gradient( 180deg, rgba(0, 0, 0, 0) -20.28%, #000000 112.05% );
-    margin: -40px -23px;
+    background: linear-gradient( 180deg, rgba(0, 0, 0, 0) -20.28%, #000000 112.05% );    
     position: absolute;
     width: 100%;
     height: 100%;
