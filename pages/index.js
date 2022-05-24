@@ -26,9 +26,9 @@ export default function Home() {
         <section>
           <Especialidades />
         </section> 
-        <section>
+        <GrayContainer>
           <Servicios />
-        </section> 
+        </GrayContainer> 
       </main>
       <footer>
        

@@ -4,7 +4,7 @@ import data from "./espec.json"
 
 const Especialidades = () => {
   return (
-    <div className="container md:mx-auto flex flex-wrap justify-center">
+    <div className="container md:mx-auto flex flex-wrap justify-center pt-28 pb-16">
       <h2 className='text-secondary text-center'>Especialidades</h2>
       <div className='flex flex-wrap justify-center pt-12'>
           {
