@@ -1,13 +1,15 @@
 import React from 'react'
+import Head from 'next/head'
 import { EmergenciaAdultos } from "../../components/Emergencia/Adultos";
 import {EmergenciaIntro } from "../../components/Emergencia/Intro";
 import {EmergenciaPediatrica } from "../../components/Emergencia/Pediatrica";
+import { Footer } from "../../components/Footer"
 
-export default Emergencia = () => {
+export default function Emergencia() {
   return (
     <div>
       <Head>
-        <title>Ashford Hospital|Emergencia</title>        
+        <title>Ashford Hospital | Emergencia</title>        
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
@@ -22,9 +24,7 @@ export default Emergencia = () => {
         </section> 
         
       </main>
-      <footer>
-       
-      </footer>
+      <Footer/>
     </div>
   )
 }
