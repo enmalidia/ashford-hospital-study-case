@@ -19,7 +19,8 @@ module.exports = {
         secondary:'#002554',
         lightGray: '#8994A7',
         darkGray: '#27364B',
-        grayBackground:'#eff3f8'
+        grayBackground:'#eff3f8',
+        ligthGrayBackground:'#cbd4e1'
       },
       screens:{
         'xs': '360px',

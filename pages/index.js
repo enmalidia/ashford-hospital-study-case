@@ -5,6 +5,7 @@ import { DatosInteres } from '../components/Interes'
 import { Especialidades } from '../components/Especialidades'
 import { Servicios } from '../components/Servicios'
 import {GrayContainer} from '../components/FAQs/styles';
+import { Footer } from "../components/Footer"
 
 export default function Home() {
   return (
@@ -30,9 +31,7 @@ export default function Home() {
           <Servicios />
         </GrayContainer> 
       </main>
-      <footer>
-       
-      </footer>
+      <Footer />
     </div>
   )
 }
