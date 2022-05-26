@@ -7,7 +7,7 @@ import { Footer } from "../../components/Footer"
 
 export default function Emergencia() {
   return (
-    <div>
+    <>
       <Head>
         <title>Ashford Hospital | Emergencia</title>        
         <link rel="icon" href="/favicon.ico" />
@@ -25,6 +25,6 @@ export default function Emergencia() {
         
       </main>
       <Footer/>
-    </div>
+    </>
   )
 }

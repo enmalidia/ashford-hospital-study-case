@@ -1,10 +1,10 @@
 import React from 'react'
 import { LogoWhiteSVG } from "./LogoWhiteSVG"
 import { FiArrowRight } from "react-icons/fi";
-import { FaFacebookF, FaLinkedin, FaTwitter, FaInstagramSquare } from "react-icons/fa";
 import row1 from './row1.json'
 import row2 from './row2.json'
 import data from './para_pac.json'
+import { SocialSharing } from '../Social'
  
 
 const Footer = () => {
@@ -46,18 +46,7 @@ const Footer = () => {
               </div>
             </a>
             <div className='flex justify-between'>
-              <div className='bg-ligthGrayBackground rounded-full flex items-center justify-center w-[42px] h-[42px]'>
-                <FaFacebookF className='text-secondary'/>
-              </div>
-              <div className='bg-ligthGrayBackground rounded-full flex items-center justify-center w-[42px] h-[42px]'>
-                <FaLinkedin className='text-secondary'/>
-              </div>
-              <div className='bg-ligthGrayBackground rounded-full flex items-center justify-center w-[42px] h-[42px]'>
-                <FaTwitter className='text-secondary'/>
-              </div>
-              <div className='bg-ligthGrayBackground rounded-full flex items-center justify-center w-[42px] h-[42px]'>
-                <FaInstagramSquare className='text-secondary'/>
-              </div>
+              <SocialSharing />              
             </div>
           </div>
           <div className="w-full md:w-2/4">
