@@ -1,7 +1,22 @@
 import React from 'react'
+import Head from 'next/head'
+import { Footer } from "../../components/Footer"
+import {GrayContainer} from '../../components/FAQs/styles';
+import { Team } from '../../components/Equipo'
 
-export default Equipo = () => {
+export default function Equipo() {
   return (
-    <div>Equipo</div>
+    <>
+      <Head>
+        <title>Ashford Hospital | Equipo</title>        
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <main>
+        <GrayContainer>
+            <Team />
+        </GrayContainer>            
+      </main>
+      <Footer/>
+    </>
   )
 }

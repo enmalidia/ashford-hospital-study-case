@@ -1,0 +1,56 @@
+[
+    {
+        "role":"Directora ejecutiva",
+        "name": "Lcda. Itza Soto",
+        "email": "isoto@ashfordhospital.com",
+        "img": "/images/eje1.jpg"
+    },
+    {
+        "role":"Director médico",
+        "name": "Dr. Rafael González Rodríguez",
+        "email": "rgonzalez@ashfordhospital.com",
+        "img": "/images/eje2.jpg"
+    },
+    {
+        "role":"CFO",
+        "name": "CPA Carlos Fuentes López",
+        "email": "cfuentes@ashfordhospital.com",
+        "img": "/images/eje3.jpg"
+    },
+    {
+        "role":"Director asociado de servicios OPD",
+        "name": "Lcdo. Héctor Ortiz Arroyo",
+        "email": "hortiz@ashfordhospital.com",
+        "img": "/images/eje4.jpg"
+    },
+    {
+        "role":"Directora asociada de cumplimiento, riesgo y calidad",
+        "name": "Lcda. Blanca Santana",
+        "email": "bsantana@ashfordhospital.com",
+        "img": "/images/eje5.jpg"
+    },
+    {
+        "role":"Directora de recursos humanos",
+        "name": "Sra. Irma Carrillo",
+        "email": "icarrillo@ashfordhospital.com",
+        "img": "/images/eje6.jpg"
+    },
+    {
+        "role":"Directora asociada de transformación operacional y dirección de proyectos",
+        "name": "Sra. Dorimar Morales",
+        "email": "dmorales@ashfordhospital.com",
+        "img": "/images/eje7.jpg"
+    },
+    {
+        "role":"Directora de los servicios de enfermería",
+        "name": "Sra. Bernice Pérez",
+        "email": "bperez@ashfordhospital.com",
+        "img": "/images/eje8.jpg"
+    },
+    {
+        "role":"Asesor legal interno",
+        "name": "Lcdo. Luis Fuentes Vázquez",
+        "email": "lfuentes@ashfordhospital.com",
+        "img": "/images/eje10.jpg"
+    }
+]
