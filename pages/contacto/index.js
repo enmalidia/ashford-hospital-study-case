@@ -14,7 +14,7 @@ export default function Contacto() {
       <main>
         <GrayContainer>
             <Contact />
-        </GrayContainer>       
+        </GrayContainer>            
       </main>
       <Footer/>
     </>

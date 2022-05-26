@@ -1,0 +1,32 @@
+[
+    {
+        "year": "1904",
+        "place": "Centro de registro",
+        "description": "La primera sede del Hospital Presbiteriano fue inaugurada en 1904. Inicialmente era un dispensario, fundado por la Doctora Grace Williams Atkins, y luego se convirtió en hospital. En ese mismo año también comienza la escuela de enfermería en los predios del hospital.",
+        "img": "/images/1.png"
+    },
+    {
+        "year": "1904",
+        "place": "Centro de registro",
+        "description": "El edificio del Hospital Presbiteriano fue inaugurado en 1917. La edificación inicial consistía de tres edificios de madera, en el corazón de Condado en el mismo lugar que el hospital ocupa hoy.",
+        "img": "/images/5.png"
+    },
+    {
+        "year": "1917",
+        "place": "Centro de registro",
+        "description": "La Junta Fundadora del Hospital traspasó el manejo de la institución a una Junta de Síndicos residentes en Puerto Rico y se le cambió el nombre al Ashford Presbyterian Community Hospital.",
+        "img": "/images/2.png"
+    },
+    {
+        "year": "1958",
+        "place": "Primer hospital",
+        "description": "Primer hospital en Puerto Rico acreditado por The Joint Commission que se ha mantenido vigente por los pasados 63 años.",
+        "img": "/images/3.png"
+    },
+    {
+        "year": "1963",
+        "place": "Ashford Medical Tower",
+        "description": "Primer hospital en contar con una torre de oficinas médicas (Ashford Medical Center).",
+        "img": "/images/4.png"
+    }   
+]
