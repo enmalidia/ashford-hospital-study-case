@@ -15,8 +15,7 @@ export default function Guia () {
             <Guide />
         </section>            
       </main>
-      <Footer/>
-      
+      <Footer/>      
     </>
   )
 }
