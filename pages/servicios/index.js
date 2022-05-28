@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import {GrayContainer} from '../../components/FAQs/styles';
 import { Footer } from "../../components/Footer"
 import { Radiologia } from '../../components/Servicios/Radiologia'
 import { MedicinaNuclear } from "../../components/Servicios/Nuclear";
@@ -22,12 +23,12 @@ export default function Servicios() {
         <section>
             <Radiologia />
         </section> 
-        <section>
+        <GrayContainer>
             <MedicinaNuclear />
-        </section> 
-        <section>
+        </GrayContainer> 
+        <GrayContainer>
             <Laboratorio />
-        </section>  
+        </GrayContainer>  
         <section>
             <MedicinaFisica />
         </section> 
