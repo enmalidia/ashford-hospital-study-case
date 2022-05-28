@@ -1,4 +1,6 @@
 import React from 'react'
+import Head from 'next/head'
+import { Footer } from "../../components/Footer"
 import { Radiologia } from '../../components/Servicios/Radiologia'
 import { MedicinaNuclear } from "../../components/Servicios/Nuclear";
 import {Laboratorio } from "../../components/Servicios/Laboratorio";
@@ -9,11 +11,11 @@ import { CentroMujer } from "../../components/Servicios/Mujer";
 import { Vacunacion } from "../../components/Servicios/Vacunacion";
 import { Farmacia } from '../../components/Servicios/Farmacia';
 
-export default Servicios = () => {
+export default function Servicios() {
   return (
     <div>
         <Head>
-        <title>Ashford Hospital|Servicios</title>        
+        <title>Ashford Hospital | Servicios</title>        
         <link rel="icon" href="/favicon.ico" />
         </Head>
         <main>
@@ -45,9 +47,7 @@ export default Servicios = () => {
             <Farmacia/>
         </section>
         </main>
-        <footer>
-        
-        </footer>
+        <Footer/>
     </div>
   )
 }
