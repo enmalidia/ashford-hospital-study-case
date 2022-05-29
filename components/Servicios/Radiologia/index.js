@@ -64,7 +64,6 @@ const Radiologia = () => {
           </div>
         </div> 
       </div>
-
     </div>
   )
 }
