@@ -1,4 +1,6 @@
 import React from 'react'
+import Head from 'next/head'
+import { Footer } from "../../components/Footer"
 import { Obstetricia } from "../../components/Especialidades/Obstetricia";
 import { CuidadoNeonatal } from "../../components/Especialidades/Neonatal";
 import { CirugiaColorrectal } from "../../components/Especialidades/CirugiaColorrectal";
@@ -11,7 +13,7 @@ import { CirugiaOncologica } from "../../components/Especialidades/CirugiaOncolo
 import { Pediatria } from "../../components/Especialidades/Pediatria";
 import { Urologia } from "../../components/Especialidades/Urologia";
 
-export default Especialidades = () => {
+export default function Especialidades() {
   return (
     <div>
       <Head>
@@ -53,9 +55,7 @@ export default Especialidades = () => {
           <Urologia />
         </section> 
       </main>
-      <footer>
-       
-      </footer>
+      <Footer />
     </div>
   )
 }
