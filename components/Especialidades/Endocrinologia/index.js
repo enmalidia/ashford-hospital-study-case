@@ -1,6 +1,5 @@
 import React from 'react'
-import { FiArrowRight, FiPhone, FiClock } from "react-icons/fi";
-import { BsGeo } from "react-icons/bs";
+import { FiArrowRight } from "react-icons/fi";
 import data from './data.json'
 
 const Endocrinologia = () => {
