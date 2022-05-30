@@ -17,7 +17,7 @@ export default function Especialidades() {
   return (
     <div>
       <Head>
-        <title>Ashford Hospital|Especialidades</title>        
+        <title>Ashford Hospital | Especialidades</title>        
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
