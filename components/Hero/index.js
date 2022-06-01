@@ -1,15 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
-import { ContentWrapper } from "../../styles/global";
 import heroImg from '../../public/images/info-background.png'
-import { MenuBar } from '../MenuBar'
 import { MovingBar } from '../MovingBar'
+import { Navbar } from '../Navbar.js'
 
 const Hero = () => {
     return (
         <div className=''>
-            <MenuBar/>
             <MovingBar/>
+            <Navbar/>            
             <div className='h-full'>
                 <Image 
                 src={heroImg}
