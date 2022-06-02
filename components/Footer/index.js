@@ -5,58 +5,53 @@ import row1 from './row1.json'
 import row2 from './row2.json'
 import data from './para_pac.json'
 import { SocialSharing } from '../Social'
+import { BorderColumn } from './styles'
  
 
-const Footer = () => {
-
-  const getRow1 = () =>{
-    let row1=[]
-    for (let i = 0; i < data.length===10 ; i++) {    
-        row1.push(data[i])
-    }
-    return row1  
-  }  
+const Footer = () => {  
 
   return (
     <div className="w-full bg-secondary">
-      <div className='pt-16 px-28 mx-auto md:flex'>
-        <div className="w-full md:w-1/4">
+      <div className='px-4 pt-10 md:px-14 md:pt-16 lg:px-28 mx-auto md:flex md:flex-wrap lg:flex-nowrap md:justify-between'>
+        <div className="w-full md:w-2/4 xl:w-1/4 lg:mr-8">
             <LogoWhiteSVG />
-            <p className='text-white'>Ashford Hospital</p>
-            <p>
-              <span className='text-white'>451 Ave Dr Ashford,</span>
-              <span className='text-white'>00907, San Juan, Puerto Rico</span>
+            <p className='text-white leading-none mt-10'>Ashford Hospital</p>
+            <p className='text-xs text-white flex flex-col'>
+              <span>451 Ave Dr Ashford,</span>
+              <span>00907, San Juan, Puerto Rico</span>
             </p>
-            <a href="">
-              <div className='flex text-white items-center'>                
-                <p>Contacto</p>
-                <FiArrowRight/>
-              </div>
-            </a>
-            <a href="">
-              <div className='flex text-white items-center'>                
-                <p>Sobre nosotros</p>
-                <FiArrowRight/>
-              </div>
-            </a>
-            <a href="">
-              <div className='flex text-white items-center'>                
-                <p>Equipo</p>
-                <FiArrowRight/>
-              </div>
-            </a>
-            <div className='flex justify-between'>
+            <div className='mt-14'>
+              <a href="">
+                <div className='flex text-white items-center'>                
+                  <p className='text-primary'>Contacto</p>
+                  <FiArrowRight className='text-primary' />
+                </div>
+              </a>
+              <a href="">
+                <div className='flex text-white items-center'>                
+                  <p className='text-primary'>Sobre nosotros</p>
+                  <FiArrowRight className='text-primary' />
+                </div>
+              </a>
+              <a href="">
+                <div className='flex text-white items-center'>                
+                  <p className='text-primary'>Equipo</p>
+                  <FiArrowRight className='text-primary' />
+                </div>
+              </a>
+            </div>           
+            <div className='flex mt-8'>
               <SocialSharing />              
             </div>
           </div>
-          <div className="w-full md:w-2/4">
-            <p className='text-primary'>Servicios y especialidades</p>
+          <BorderColumn className="w-full md:w-2/4 my-8 lg:my-0 md:pl-8">
+            <p className='text-primary mb-[10px]'>Servicios y especialidades</p>
             <div className='w-full md:flex'>
-              <ul>
+              <ul className='mr-8'>
               {
                 React.Children.toArray(
                   row1.map(item => (                        
-                    <li className='text-white'><a href=""><p>{item.name}</p></a></li>                   
+                    <li className='text-white mt-2'><a href=""><h6 className='text-white hover:text-primary'>{item.name}</h6></a></li>                   
                   ))
                 )               
               }  
@@ -65,39 +60,39 @@ const Footer = () => {
               {
                 React.Children.toArray(
                   row2.map(item => (                        
-                    <li className='text-white'><a href=""><p>{item.name}</p></a></li>                   
+                    <li className='text-white mt-2'><a href=""><h6 className='text-white hover:text-primary'>{item.name}</h6></a></li>                   
                   ))
                 )               
               }  
               </ul>              
             </div>                       
-          </div>
-          <div className="w-full md:w-1/4">
-            <p className='text-primary'>Para pacientes</p>
+          </BorderColumn>
+          <BorderColumn className="w-full md:w-2/4 xl:w-1/4 md:pl-8 my-8 lg:my-0">
+            <p className='text-primary mb-[10px]'>Para pacientes</p>
               <div>
                 <ul>
                   {
                   React.Children.toArray(
                     data.map(item => (                        
-                      <li className='text-white'><a href=""><p>{item.name}</p></a></li>                   
+                      <li className='text-white mt-2'><a href=""><h6 className='text-white hover:text-primary'>{item.name}</h6></a></li>                   
                     ))
                   )               
                   } 
                 </ul>
               </div>
-          </div>
+          </BorderColumn>
       </div>  
-      <div className='flex justify-between'>
-        <p className='text-xs text-white'>Copyright © 2022. Ashford Hospital</p>
-        <div className='flex justify-between'>
+      <div className='flex flex-col-reverse lg:flex-row justify-between px-4 py-6 md:px-14 md:pt-10 md:pb-6 xl:px-28 xl:pt-14 mx-auto'>
+        <p className='text-xs text-white mt-6 lg:mt-0'>Copyright © 2022. Ashford Hospital</p>
+        <div className='flex flex-col lg:flex-row justify-between'>
           <a href="">
-            <p className='text-xs text-white'>Lista comprensiva de cargos del Hospital Ashford</p>
+            <p className='text-xs text-white underline mr-8'>Lista comprensiva de cargos del Hospital Ashford</p>
           </a>
           <a href="">
-            <p className='text-xs text-white'>Política de privacidad</p>
+            <p className='text-xs text-white underline mr-8'>Política de privacidad</p>
           </a>
           <a href="">
-            <p className='text-xs text-white'>Política de conflictos de interés</p>
+            <p className='text-xs text-white underline'>Política de conflictos de interés</p>
           </a>
         </div>
       </div>     

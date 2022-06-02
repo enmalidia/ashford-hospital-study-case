@@ -41,7 +41,7 @@
   }
   /*14 -12*/
   h6{
-    @apply tracking-tight text-lightGray dark:text-darkGray text-xs md:text-sm ;
+    @apply tracking-tight text-xs md:text-sm ;
     font-family: 'Untitled Sans';
   }
 
