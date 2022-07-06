@@ -11,8 +11,7 @@ export const MarqueeBanner = styled.div.attrs({
     white-space: nowrap;
     overflow: hidden;
     box-sizing: border-box;
-    position: relative;
-    z-index:2;
+    
 
     p{
     display: inline-block;

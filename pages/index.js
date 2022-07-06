@@ -6,6 +6,7 @@ import { Especialidades } from '../components/Especialidades'
 import { Servicios } from '../components/Servicios'
 import {GrayContainer} from '../components/FAQs/styles';
 import { Footer } from "../components/Footer"
+import { NavigationBar } from '../components/Navbar.js'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <main>
         <section className='h-screen'>
+          <NavigationBar/> 
           <Hero />
         </section> 
         <GrayContainer className='py-28'>

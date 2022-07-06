@@ -22,7 +22,8 @@ module.exports = {
         darkGray: '#27364B',
         grayBackground:'#eff3f8',
         blueBackground:'#01426a',
-        ligthGrayBackground:'#cbd4e1'
+        ligthGrayBackground:'#cbd4e1',
+        grayMenu:'#f6f8fc'
       },
       screens:{
         'xs': '360px',
