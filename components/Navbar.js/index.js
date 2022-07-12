@@ -149,11 +149,15 @@ export function Navbar(){
 } */
 
 import React, { useState, useEffect, useRef } from "react";
-import styled from "styled-components";
 import { NavbarWrapper, NavbarLogo, NavbarItems, NavbarItem, HamburgerButtonWrapper, HamburgerButtonLines } from './styles'
+import serv from '../Servicios/serv.json'
+import espec from '../Especialidades/espec.json'
+import { DesktopNavigation, DropdownContainer, HamburguerWrapper } from './styles'
+import {Logo} from './Logo'
 
 function NavigationBar() {
   const [openDrawer, toggleDrawer] = useState(false);
+  const [hoverS, setHoverS] = useState(false) 
   const drawerRef = useRef(null);
 
   useEffect(() => {
@@ -173,18 +177,49 @@ function NavigationBar() {
   return (
     <>      
       <NavbarWrapper>
-        <NavbarLogo>Logo</NavbarLogo>
-
+        <Logo/>
         <HamburgerButtonWrapper onClick={() => toggleDrawer(true)}>
           <HamburgerButtonLines />
         </HamburgerButtonWrapper>
 
         <NavbarItems ref={drawerRef} open={openDrawer}>
-          <NavbarItem>Home</NavbarItem>
-          <NavbarItem>Blog</NavbarItem>
-          <NavbarItem>About</NavbarItem>
+          <NavbarItem onMouseEnter={()=>setHoverS(true)} onMouseLeave={()=>setHoverS(false)}>Servicios y especialidades</NavbarItem>
+          <NavbarItem>Sala de emergencia</NavbarItem>
+          <NavbarItem>Para paciente</NavbarItem>
+          <NavbarItem>Sobre nosotros</NavbarItem>
+          <NavbarItem>Contacto</NavbarItem>
         </NavbarItems>
       </NavbarWrapper>
+      <DropdownContainer className={hoverS ? " flex px-16 py-6 mt-[66px] z-[3]" : "h-0"} id="dropdownMenu">
+                <div className='w-1/3'>
+                    <h2>Servicios y especialidades</h2>
+                    <p>En el Hospital Ashford ofrecemos una gran diversidad de servicios.</p>
+                </div>
+                <div className='w-1/3 pl-8'>
+                    <p className='text-primary pl-8 py-2 pr-2'>Servicios</p>
+                    <div className='flex flex-wrap pl-8'>
+                    {
+                        React.Children.toArray(
+                        serv.map(item => (                                                                                            
+                            <a href="" className='py-2'><h6>{item.name}</h6></a>                                                                                                                                       
+                        ))
+                        )
+                    }
+                    </div>
+                </div>
+                <div className='w-1/3 pl-8'>
+                    <p className='text-primary pl-8 py-2 pr-2'>Especialidades</p>
+                    <div className='flex flex-wrap pl-8'>
+                    {
+                        React.Children.toArray(
+                        espec.map(item => (                                                                                            
+                            <a href="" className='py-2'><h6>{item.name}</h6></a>                                                                                                                                   
+                        ))
+                        )
+                    }
+                    </div>
+                </div>
+            </DropdownContainer>
     </>
   );
 }

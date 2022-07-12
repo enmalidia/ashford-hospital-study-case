@@ -20,7 +20,7 @@ export default function Home() {
           <NavigationBar/> 
           <Hero />
         </section> 
-        <GrayContainer className='py-28'>
+        <GrayContainer className='py-28 relative'>
           <FAQs />
         </GrayContainer> 
         <section>

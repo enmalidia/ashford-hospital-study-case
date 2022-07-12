@@ -39,6 +39,18 @@ export const DropdownContainer = styled.div.attrs({
     className: "bg-grayMenu"
 })
 `
+    #dropdownMenu{
+        position: absolute; 
+        top: 0;        
+        width:100%;  
+        cursor: pointer; 
+        z-index: 1;     
+        transition: height .3s ease-in-out;  
+        -webkit-transition: height 300ms ease-in-out;        
+        background-color: white;
+        overflow-y: auto;
+    }
+
     z-index:2;
     overflow: hidden;  
 `;
@@ -80,7 +92,7 @@ export const NavbarWrapper = styled.nav.attrs({
 
     align-self: flex-start;
 
-    padding: 1rem 3rem;
+    padding: 8px 64px 18px;
 
     display: flex;
     justify-content: space-between;
@@ -89,6 +101,9 @@ export const NavbarWrapper = styled.nav.attrs({
     background-color: white;
     position:fixed;
     top:0;
+    width: 100%;
+    z-index:1;
+    
 
     // 40em == 640px
     @media only screen and (max-width: 40em) {
@@ -156,10 +171,10 @@ export const NavbarItems = styled.ul.attrs({
     }
 `;
 export const NavbarItem = styled.li.attrs({
-    className: ""
+    className: "text-sm text-secondary font-normal hover:text-primary"
 })
 `
-    padding: 0 1rem;
+    padding: 8px;
     cursor: pointer;
 
     @media only screen and (max-width: 40em) {
